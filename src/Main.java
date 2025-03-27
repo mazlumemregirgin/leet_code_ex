@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -13,5 +15,9 @@ public class Main {
         int result2= solution2.findNumbersWithEvenNumberDigits(nums2);
         System.out.println("numbers with even number digits " + result2);
 
+        int[] nums3 = {-7,-3,2,3,11};
+        SquaresOfaSortedArray solution3 = new SquaresOfaSortedArray();
+        int[] result3= solution3.sortedSquares(nums3);
+        System.out.println("SquaresOfaSortedArray: " + Arrays.toString(result3));
     }
 }
